@@ -4,23 +4,23 @@ $datum = date("d-m-Y");
 $tijd = date("H:i");
 $favorieteGame = "Super metroid";
 $mooisteGetal = 7;
+$FavorieteStad = "Amsterdam";
+$Mooiste = "M";
 
-echo $title;
-echo $datum;
-echo $tijd;
-echo $favorieteGame;
-echo $mooisteGetal;
 ?>
 
 
 <!DOCTYPE html>
 <html lang="nl">
     <head>
-        <title><?php echo "Titel van de pagina" ?></title>
+        <title><?php echo $title ?></title>
     </head>
     <body>
-        <h2>De datum vandaag is: <?php echo date('d-m-Y')?>, en de tijd is <?php echo date("H:i")?> uur.
+        <h2>De datum vandaag is:<?php echo $datum?>, <?php echo $tijd?> uur.
         
-        <p><h2>Mijn favoriete game</h2><?php echo "Super metroid";?></p>
+        <p><h2>Mijn favoriete game</h2><?php echo $favorieteGame;?></p>
+        <p><h2>Mooiste Getal:</h2><?= $mooisteGetal ?></p>
+        <p><h3>Favoriete Stad:</h3><?= $FavorieteStad ?></p>
+        <p><h4>Mooiste:</h4><?= $Mooiste?></p>
     </body>
 </html>
