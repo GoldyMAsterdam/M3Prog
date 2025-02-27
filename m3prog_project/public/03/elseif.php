@@ -3,13 +3,13 @@
 $stoplichtKleur ='R';
 
 if($stoplichtKleur == 'G') {
-    echo "Doorrijden";
+    echo " <button style='background-color:#008000;height:25px;width:25px;'/>";
 }
 else if($stoplichtKleur == 'O') {
-    echo "Stoppen als het kan";
+    echo " <button style='background-color:#FFA500;height:25px;width:25px;'/>";
 }
 else {
-    echo "Stoppen";
+    echo " <button style='background-color:#FF0000;height:25px;width:25px;'/>";
 }
 ?>
 <!DOCTYPE html>
@@ -20,6 +20,5 @@ else {
     <title>Document</title>
 </head>
 <body>
-    
 </body>
 </html>
