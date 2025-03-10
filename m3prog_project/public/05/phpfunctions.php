@@ -7,7 +7,7 @@ echo "<br>";
 
 /*vraag 1)
 
-    wat is het type het argument van strlen?
+    wat is het type het argument van strlen?    
 Antwoord: string
 
 vraag 2)
