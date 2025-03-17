@@ -1,0 +1,29 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Arial', sans-serif; 
+    background: #5D3FD3;
+    color: white; 
+    font-size: 1.6rem; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+html {
+    font-size: 62.5%;
+}
+article {
+    margin: 0 auto;
+    width: 30%;
+    padding: 2rem;
+    background: black;
+    border-radius: 1.6rem;
+    margin-top: 2rem;
+}
