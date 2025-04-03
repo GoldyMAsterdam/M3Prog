@@ -1,4 +1,4 @@
-<?php 
+<?php
 $status = "offline". "<br>";
 $statusa = "available". "<br>";
 $statusb = "busy". "<br>";
@@ -36,6 +36,6 @@ echo $prijso;
     <title>Document</title>
 </head>
 <body>
-    
+
 </body>
 </html>
